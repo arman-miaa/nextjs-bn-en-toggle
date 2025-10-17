@@ -33,6 +33,7 @@ export default async function RootLayout({ children, params }) {
 
   return (
     <html lang={locale} translate="no">
+      <meta name="google" content="notranslate" />
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
